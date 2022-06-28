@@ -15,6 +15,7 @@ class MarketSummaryViewModel {
     let webService = MarketService()
     let markets: BehaviorRelay<[Market]> = BehaviorRelay(value: [])
     let stocks: BehaviorRelay<[Stock]> = BehaviorRelay(value: [])
+    let stockResult: BehaviorRelay<Stock?> = BehaviorRelay(value: nil)
     let disposeBag = DisposeBag()
     
     /**
@@ -25,6 +26,6 @@ class MarketSummaryViewModel {
     }
     
     func searchStock(searchString : String) {
-        webService.searchStock(searchString: searchString).bind(to: stocks).disposed(by: disposeBag)
+        webService.searchStock(searchString: searchString).bind(to: stockResult).disposed(by: disposeBag)
     }
 }

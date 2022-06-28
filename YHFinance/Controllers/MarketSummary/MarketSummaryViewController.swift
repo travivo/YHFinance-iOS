@@ -31,6 +31,27 @@ class MarketSummaryViewController: UIViewController {
     }
     
     func setReactive() {
+        
+        searchBar
+            .rx.text
+            .skip(1)
+            .debounce(RxTimeInterval.milliseconds(800), scheduler: MainScheduler.instance) // Wait 0.8 for changes.
+            .distinctUntilChanged() // If they didn't occur, check if the new value is the same as old.
+            .subscribe(onNext: { [weak self] query in // Here we subscribe to every new value, that is not empty (thanks to filter above).
+                guard let self = self else {
+                    return
+                }
+                
+                if let query = query, !query.isEmpty {
+                    self.viewModel.searchStock(searchString: query)
+                }
+                else {
+                    self.fetchData()
+                }
+            })
+            .disposed(by: disposeBag)
+        
+        
         tableView.rx.setDelegate(self)
             .disposed(by: disposeBag)
         
