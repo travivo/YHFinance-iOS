@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		AC6AC1582864A175000C61CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6AC1572864A175000C61CE /* AppDelegate.swift */; };
 		AC6AC15A2864A175000C61CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6AC1592864A175000C61CE /* SceneDelegate.swift */; };
-		AC6AC15C2864A175000C61CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6AC15B2864A175000C61CE /* ViewController.swift */; };
 		AC6AC15F2864A175000C61CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6AC15D2864A175000C61CE /* Main.storyboard */; };
 		AC6AC1612864A177000C61CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6AC1602864A177000C61CE /* Assets.xcassets */; };
 		AC6AC1642864A177000C61CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6AC1622864A177000C61CE /* LaunchScreen.storyboard */; };
+		AC8C120D28685F6700FCBD24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C120C28685F6700FCBD24 /* Constants.swift */; };
+		AC8C1211286863A100FCBD24 /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C1210286863A100FCBD24 /* ServiceRouter.swift */; };
+		AC8C12142868643900FCBD24 /* APIWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C12132868643900FCBD24 /* APIWebService.swift */; };
+		AC8C121628686C0100FCBD24 /* MarketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C121528686C0100FCBD24 /* MarketService.swift */; };
+		AC8C121A28686D5500FCBD24 /* MarketSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C121928686D5500FCBD24 /* MarketSummaryViewModel.swift */; };
+		AC8C121E2868777500FCBD24 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C121D2868777500FCBD24 /* Market.swift */; };
+		AC8C122028688B9C00FCBD24 /* MarketSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C121F28688B9C00FCBD24 /* MarketSummaryViewController.swift */; };
+		AC8C122328688E8900FCBD24 /* MarketSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C122228688E8900FCBD24 /* MarketSummaryCell.swift */; };
+		AC8C12252869A58F00FCBD24 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C12242869A58F00FCBD24 /* Stock.swift */; };
+		AC8C12282869A5D200FCBD24 /* StockDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C12272869A5D200FCBD24 /* StockDetailsViewController.swift */; };
+		AC8C122A2869A5FD00FCBD24 /* StockDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C12292869A5FD00FCBD24 /* StockDetailsViewModel.swift */; };
+		B5328884BF7BE8437960860F /* libPods-YHFinance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD47215139453F15CB23769A /* libPods-YHFinance.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38308662C4CBDB257E400743 /* Pods-YHFinance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHFinance.release.xcconfig"; path = "Target Support Files/Pods-YHFinance/Pods-YHFinance.release.xcconfig"; sourceTree = "<group>"; };
+		7343AE23CB50DE6876AB92B8 /* Pods-YHFinance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHFinance.debug.xcconfig"; path = "Target Support Files/Pods-YHFinance/Pods-YHFinance.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6AC1542864A175000C61CE /* YHFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6AC1572864A175000C61CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC6AC1592864A175000C61CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC6AC15B2864A175000C61CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC6AC15E2864A175000C61CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC6AC1602864A177000C61CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6AC1632864A177000C61CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6AC1652864A177000C61CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8C120C28685F6700FCBD24 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC8C1210286863A100FCBD24 /* ServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRouter.swift; sourceTree = "<group>"; };
+		AC8C12132868643900FCBD24 /* APIWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWebService.swift; sourceTree = "<group>"; };
+		AC8C121528686C0100FCBD24 /* MarketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketService.swift; sourceTree = "<group>"; };
+		AC8C121928686D5500FCBD24 /* MarketSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSummaryViewModel.swift; sourceTree = "<group>"; };
+		AC8C121D2868777500FCBD24 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		AC8C121F28688B9C00FCBD24 /* MarketSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSummaryViewController.swift; sourceTree = "<group>"; };
+		AC8C122228688E8900FCBD24 /* MarketSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSummaryCell.swift; sourceTree = "<group>"; };
+		AC8C12242869A58F00FCBD24 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		AC8C12272869A5D200FCBD24 /* StockDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewController.swift; sourceTree = "<group>"; };
+		AC8C12292869A5FD00FCBD24 /* StockDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewModel.swift; sourceTree = "<group>"; };
+		BD47215139453F15CB23769A /* libPods-YHFinance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHFinance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5328884BF7BE8437960860F /* libPods-YHFinance.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C59921F6EB9AEA7DD34BBF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7343AE23CB50DE6876AB92B8 /* Pods-YHFinance.debug.xcconfig */,
+				38308662C4CBDB257E400743 /* Pods-YHFinance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9818851A6B6F17979B39C42A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD47215139453F15CB23769A /* libPods-YHFinance.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC6AC14B2864A175000C61CE = {
 			isa = PBXGroup;
 			children = (
 				AC6AC1562864A175000C61CE /* YHFinance */,
 				AC6AC1552864A175000C61CE /* Products */,
+				7C59921F6EB9AEA7DD34BBF9 /* Pods */,
+				9818851A6B6F17979B39C42A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,89 @@
 		AC6AC1562864A175000C61CE /* YHFinance */ = {
 			isa = PBXGroup;
 			children = (
+				AC8C120F2868638F00FCBD24 /* Routers */,
+				AC8C12052868592C00FCBD24 /* Constants */,
+				AC8C12122868640E00FCBD24 /* Services */,
+				AC8C12082868595E00FCBD24 /* Model */,
+				AC8C12072868595000FCBD24 /* Controllers */,
+				AC8C12062868594100FCBD24 /* ViewModels */,
 				AC6AC1572864A175000C61CE /* AppDelegate.swift */,
 				AC6AC1592864A175000C61CE /* SceneDelegate.swift */,
-				AC6AC15B2864A175000C61CE /* ViewController.swift */,
 				AC6AC15D2864A175000C61CE /* Main.storyboard */,
 				AC6AC1602864A177000C61CE /* Assets.xcassets */,
 				AC6AC1622864A177000C61CE /* LaunchScreen.storyboard */,
 				AC6AC1652864A177000C61CE /* Info.plist */,
 			);
 			path = YHFinance;
+			sourceTree = "<group>";
+		};
+		AC8C12052868592C00FCBD24 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C120C28685F6700FCBD24 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AC8C12062868594100FCBD24 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C121928686D5500FCBD24 /* MarketSummaryViewModel.swift */,
+				AC8C12292869A5FD00FCBD24 /* StockDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AC8C12072868595000FCBD24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C12262869A5B800FCBD24 /* StockDetails */,
+				AC8C122128688E6700FCBD24 /* MarketSummary */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC8C12082868595E00FCBD24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C121D2868777500FCBD24 /* Market.swift */,
+				AC8C12242869A58F00FCBD24 /* Stock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC8C120F2868638F00FCBD24 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C1210286863A100FCBD24 /* ServiceRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		AC8C12122868640E00FCBD24 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C12132868643900FCBD24 /* APIWebService.swift */,
+				AC8C121528686C0100FCBD24 /* MarketService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC8C122128688E6700FCBD24 /* MarketSummary */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C121F28688B9C00FCBD24 /* MarketSummaryViewController.swift */,
+				AC8C122228688E8900FCBD24 /* MarketSummaryCell.swift */,
+			);
+			path = MarketSummary;
+			sourceTree = "<group>";
+		};
+		AC8C12262869A5B800FCBD24 /* StockDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C12272869A5D200FCBD24 /* StockDetailsViewController.swift */,
+			);
+			path = StockDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC6AC1682864A177000C61CE /* Build configuration list for PBXNativeTarget "YHFinance" */;
 			buildPhases = (
+				CD8DB4CD7B939D3766AD58FB /* [CP] Check Pods Manifest.lock */,
 				AC6AC1502864A175000C61CE /* Sources */,
 				AC6AC1512864A175000C61CE /* Frameworks */,
 				AC6AC1522864A175000C61CE /* Resources */,
@@ -133,14 +252,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD8DB4CD7B939D3766AD58FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YHFinance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC6AC1502864A175000C61CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6AC15C2864A175000C61CE /* ViewController.swift in Sources */,
+				AC8C12282869A5D200FCBD24 /* StockDetailsViewController.swift in Sources */,
 				AC6AC1582864A175000C61CE /* AppDelegate.swift in Sources */,
+				AC8C121E2868777500FCBD24 /* Market.swift in Sources */,
+				AC8C1211286863A100FCBD24 /* ServiceRouter.swift in Sources */,
+				AC8C121A28686D5500FCBD24 /* MarketSummaryViewModel.swift in Sources */,
+				AC8C122328688E8900FCBD24 /* MarketSummaryCell.swift in Sources */,
 				AC6AC15A2864A175000C61CE /* SceneDelegate.swift in Sources */,
+				AC8C120D28685F6700FCBD24 /* Constants.swift in Sources */,
+				AC8C122A2869A5FD00FCBD24 /* StockDetailsViewModel.swift in Sources */,
+				AC8C12142868643900FCBD24 /* APIWebService.swift in Sources */,
+				AC8C122028688B9C00FCBD24 /* MarketSummaryViewController.swift in Sources */,
+				AC8C12252869A58F00FCBD24 /* Stock.swift in Sources */,
+				AC8C121628686C0100FCBD24 /* MarketService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +438,7 @@
 		};
 		AC6AC1692864A177000C61CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7343AE23CB50DE6876AB92B8 /* Pods-YHFinance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,8 +449,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +468,7 @@
 		};
 		AC6AC16A2864A177000C61CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38308662C4CBDB257E400743 /* Pods-YHFinance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +479,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
